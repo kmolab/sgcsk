@@ -13,7 +13,9 @@
 <v t="leo.20171226103610.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20171226103610.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20171226165445.1"><vh>Reference</vh></v>
+<v t="leo.20171226165445.1" a="E"><vh>Reference</vh>
+<v t="leo1.20171227213419.1"><vh>Quaternions_and_spatial_rotation</vh></v>
+</v>
 <v t="leo.20171226105217.1"><vh>@button mingw32-make</vh></v>
 <v t="leo.20171226105123.1" a="E"><vh>@path ./../</vh>
 <v t="leo.20171226105055.1"><vh>@edit README.md</vh></v>
@@ -28,11 +30,11 @@
 <v t="leo.20171226104507.4"><vh>Example2d</vh></v>
 </v>
 <v t="leo.20171226104343.1" a="E"><vh>@path example</vh>
-<v t="leo.20171226104343.4"><vh>@@clean example_crank_rocker.py</vh>
+<v t="leo.20171226104343.4" a="E"><vh>@@clean example_crank_rocker.py</vh>
 <v t="leo.20171226104343.5"><vh>Declarations</vh></v>
 <v t="leo.20171226104343.6"><vh>crank_rock</vh></v>
 </v>
-<v t="leo.20171226104343.7"><vh>@@clean example_crank_rocker_draw.py</vh>
+<v t="leo.20171226104343.7" a="E"><vh>@@clean example_crank_rocker_draw.py</vh>
 <v t="leo.20171226111411.1"><vh>Declarations</vh></v>
 <v t="leo.20171226111411.2"><vh>crank_rocker</vh></v>
 </v>
@@ -40,7 +42,7 @@
 <v t="leo.20171226104022.1" a="E"><vh>@path src</vh>
 <v t="leo.20171226113822.1"><vh>@edit slvs.i</vh></v>
 <v t="leo.20171226113829.1"><vh>@edit slvs_python.hpp</vh></v>
-<v t="leo.20171226104022.2"><vh>@@clean constraint.cpp</vh>
+<v t="leo.20171226104022.2" a="E"><vh>@@clean constraint.cpp</vh>
 <v t="leo.20171226104022.3"><vh>void Constraint::DeleteAllConstraintsFor</vh></v>
 <v t="leo.20171226104022.4"><vh>bool other</vh></v>
 <v t="leo.20171226104022.5"><vh>void Constraint::MenuConstrain</vh>
@@ -76,7 +78,7 @@
 <v t="leo.20171226104022.32"><vh>void EntityBase::AddEq</vh></v>
 <v t="leo.20171226104022.33"><vh>void EntityBase::GenerateEquations</vh></v>
 </v>
-<v t="leo.20171226104022.34"><vh>@@clean expr.cpp</vh>
+<v t="leo.20171226104022.34" a="E"><vh>@@clean expr.cpp</vh>
 <v t="leo.20171226104022.35"><vh>int Expr::Children</vh></v>
 <v t="leo.20171226104022.36"><vh>int Expr::Nodes</vh></v>
 <v t="leo.20171226104022.37"><vh>bool Expr::DependsOn</vh></v>
@@ -92,11 +94,11 @@
 <v t="leo.20171226104022.46"><vh>bool ExprParser::Reduce</vh></v>
 <v t="leo.20171226104022.47"><vh>bool ExprParser::Parse</vh></v>
 </v>
-<v t="leo.20171226104022.48"><vh>@@clean lib.cpp</vh>
+<v t="leo.20171226104022.48" a="E"><vh>@@clean lib.cpp</vh>
 <v t="leo.20171226104022.49"><vh>void Group::GenerateEquations</vh></v>
 <v t="leo.20171226104022.50"><vh>void SolveSpace::CnfFreezeInt</vh></v>
 <v t="leo.20171226104022.51"><vh>void SolveSpace::DoMessageBox</vh></v>
-<v t="leo.20171226104022.52"><vh>extern "C" {</vh>
+<v t="leo.20171226104022.52" a="E"><vh>extern "C" {</vh>
 <v t="leo.20171226104022.53"><vh>void Slvs_QuaternionU</vh></v>
 <v t="leo.20171226104022.54"><vh>void Slvs_QuaternionV</vh></v>
 <v t="leo.20171226104022.55"><vh>void Slvs_QuaternionN</vh></v>
@@ -104,7 +106,7 @@
 <v t="leo.20171226104022.57"><vh>void Slvs_Solve</vh></v>
 </v>
 </v>
-<v t="leo.20171226104022.58"><vh>@@clean system.cpp</vh>
+<v t="leo.20171226104022.58" a="E"><vh>@@clean system.cpp</vh>
 <v t="leo.20171226104022.59"><vh>bool System::WriteJacobian</vh></v>
 <v t="leo.20171226104022.60"><vh>void System::EvalJacobian</vh></v>
 <v t="leo.20171226104022.61"><vh>bool System::IsDragged</vh></v>
@@ -122,7 +124,7 @@
 <v t="leo.20171226104022.73"><vh>void System::MarkParamsFree</vh></v>
 <v t="leo.20171226104022.74"><vh>int System::CalculateDof</vh></v>
 </v>
-<v t="leo.20171226104022.75"><vh>@@clean util.cpp</vh>
+<v t="leo.20171226104022.75" a="E"><vh>@@clean util.cpp</vh>
 <v t="leo.20171226104022.76"><vh>char 32_t</vh></v>
 <v t="leo.20171226104022.77"><vh>int 64_t</vh></v>
 <v t="leo.20171226104022.78"><vh>void SolveSpace::MakeMatrix</vh></v>
@@ -148,7 +150,7 @@
 <v t="leo.20171226104022.98"><vh>bool BBox::Contains</vh></v>
 <v t="leo.20171226104022.99"><vh>const std::vector</vh></v>
 </v>
-<v t="leo.20171226104022.100"><vh>@path platform</vh>
+<v t="leo.20171226104022.100" a="E"><vh>@path platform</vh>
 <v t="leo.20171226104022.101"><vh>@@clean platform.cpp</vh>
 <v t="leo.20171226104022.102"><vh>static std::vector</vh></v>
 <v t="leo.20171226104022.103"><vh>static std::string</vh></v>
@@ -6923,11 +6925,19 @@ entities in that group and dimension them.
     g.es(50*"*")
 </t>
 <t tx="leo.20171226105123.1"></t>
-<t tx="leo.20171226105217.1">import os
+<t tx="leo.20171226105217.1">@language python
+# 利用執行緒執行 mingw32-make 指令
+import os
+import threading
 
-os.chdir("./../")
-os.system("mingw32-make")
-g.es("mingw32-make done")</t>
+def domake():
+    os.chdir("./../")
+    os.system("mingw32-make clean")
+    os.system("mingw32-make")
+    g.es("sgcsk mingw32-make done")
+
+make = threading.Thread(target=domake)
+make.start()</t>
 <t tx="leo.20171226111411.1">'''
 python3 -m pip install matplotlib
 Point1 (0, 0)
@@ -7068,5 +7078,12 @@ plt.show()
 <t tx="leo.20171226165445.1">http://www.swig.org/
 
 http://www.swig.org/Doc3.0/SWIGDocumentation.pdf </t>
+<t tx="leo1.20171227213419.1">https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
+
+Quaternion in Python
+
+https://github.com/KieranWynn/pyquaternion
+
+https://github.com/moble/quaternion</t>
 </tnodes>
 </leo_file>

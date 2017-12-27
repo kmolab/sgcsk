@@ -102,9 +102,9 @@ endif
 
 slvs.py: wrap
 ifeq ($(OS),Windows_NT)
-	move /y src\_slvs.pyd .
-	move /y src\libslvs.so .
-	move /y src\slvs.py .
+	move /y src\_slvs.pyd .\example\_slvs.pyd
+	move /y src\libslvs.so .\example\libslvs.so
+	move /y src\slvs.py .\example\slvs.py
 else
 	mv src/_slvs.so _slvs.so
 	mv src/libslvs.so libslvs.so
